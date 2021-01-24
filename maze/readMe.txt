@@ -1,0 +1,1 @@
+Open HTML/menu.html to start the game.

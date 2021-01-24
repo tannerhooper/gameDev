@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="../CSS/style.css">
+  <script src="../Scripts/maze.js"></script>
+</head>
+<body onload="highScoreReport()">
+    <div class="outer">
+      <div class="top">
+        <a href="menu.html"><img id="back" src="../Images/backBtn.png"></a>
+        <b id="hsMaze">Maze</b>
+        <b style="display: none;"></b>
+      </div>
+      <div class="middle">
+          <div class="pageTitle">High Scores</div>
+          <div class="hsSizes">
+            <div class="score"><u>5x5</u></div>
+            <div class="score"><u>10x10</u></div>
+            <div class="score"><u>15x15</u></div>
+            <div class="score"><u>20x20</u></div>
+          </div>
+          <div class="results">
+            <div class="res 5"><pre id="five"></pre></div>
+            <div class="res 10"><pre id="ten"></pre></div>
+            <div class="res 15"><pre id="fifteen"></pre></div>
+            <div class="res 20"><pre id="twenty"></pre></div>
+          </div>
+      </div>
+      <div class="bottom">Made for CS 5410</div>
+    </div>
+</body>
+</html>

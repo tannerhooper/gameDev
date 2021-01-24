@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="../CSS/style.css">
+  <script src="../Scripts/maze.js"></script>
+</head>
+<body>
+    <div class="outer">
+      <div class="top">
+        <a href="menu.html"><img id="back" src="../Images/backBtn.png"></a>
+        <b id="sizesMaze">Maze</b>
+        <b style="display: none;"></b>
+      </div>
+      <div class="menu middle">
+        <div class="pageTitle">Select a size</div>
+        <div>
+            <a href="index.html"><button onclick="setSize(5)" id="size-5" value="5x5">5x5</button></a>
+        </div>
+        <div>
+            <a href="index.html"><button onclick="setSize(10)" id="size-10" value="10x10">10x10</button></a>
+        </div>
+        <div>
+            <a href="index.html"><button onclick="setSize(15)" id="size-15" value="15x15">15x15</button></a>
+        </div>
+        <div>
+            <a href="index.html"><button onclick="setSize(20)" id="size-20" value="20x20">20x20</button></a>
+        </div>
+        <div class="instr"><u>Instuctions</u></div>
+        <div class="instr">Move: arrow keys OR a,w,s,d OR j,i,k,l</div>
+        <div class="instr">Hint toggle: h</div>
+        <div class="instr">Breadcrumbs toggle: b</div>
+        <div class="instr">Path to finish toggle: p</div>
+      </div>
+      <div class="bottom">Made for CS 5410</div>
+    </div>
+</body>
+</html>
